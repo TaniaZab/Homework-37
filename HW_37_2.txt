@@ -1,0 +1,21 @@
+package com.company;
+
+public class Main {
+
+            public static void main(String[] args) {
+
+                double m = 8.5;
+                double n = 11.45;
+                double x = 10;
+                double dif1 = Math.abs (x - m);
+                double dif2 = Math.abs (x - n);
+                if (dif1 > dif2) {
+                    System.out.println(n + " ближайшее к 10 число");
+                } else {
+                    System.out.println(m + " ближайшее к 10 число");
+
+                }
+            }
+        }
+
+
